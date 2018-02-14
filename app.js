@@ -4,3 +4,8 @@
 
 
 console.log("hello world");
+
+$('.image-popup').magnificPopup({
+    type: 'image'
+    /*gallery: { enabled: true }*/
+});
